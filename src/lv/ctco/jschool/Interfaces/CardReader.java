@@ -5,7 +5,7 @@ package lv.ctco.jschool.Interfaces;
  */
 public interface CardReader {
 
-    public boolean isCardInserted();
-    public boolean isPinCorrect();
+    public boolean isCardInserted(String answer);
+    public boolean isPinCorrect(String enteredPin, String cardPin);
 
 }
